@@ -140,7 +140,7 @@ used to target multiple elements with a particular class. To put it another way:
 
 /*Showcase*/
 #showcase {
-    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    background: url('../showcase.jpg') no-repeat center center/cover;
     height: 600px;
     transition: all 1s;
 }
@@ -175,7 +175,7 @@ used to target multiple elements with a particular class. To put it another way:
 #home-info .info-img {
     float: left;
     width: 50%;
-    background: url('../img/photo1-1.jpg') no-repeat;
+    background: url('../photo1-1.jpg') no-repeat;
     min-height: 100%;
 }
 
@@ -233,7 +233,7 @@ used to target multiple elements with a particular class. To put it another way:
 /* Testimonials */
 #testimonials{
     height: 100%;
-    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    background: url('../test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px;
 
 }
@@ -256,6 +256,7 @@ used to target multiple elements with a particular class. To put it another way:
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+    display: flex;
 
 }
 
