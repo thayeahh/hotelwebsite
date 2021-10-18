@@ -238,7 +238,7 @@ used to target multiple elements with a particular class. To put it another way:
 
 }
 #testimonials h2 {
-    color: #fff;
+    color: #333;
     text-align: center; 
     padding-bottom: 40px;
 }
