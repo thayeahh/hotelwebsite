@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most awesome hotel in Brazil"> 
+    <meta name="keywords" content="hotel, hotel in Brazil, hotel five stars, stays in Brazil">
+    <script src="https://kit.fontawesome.com/ec47734a8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Hotel BT | Contact</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">HBT</a></h1>  
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class ="content" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact </span>Us</h1>
+            <p> Please fill out the form below to contact us </p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="Name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+<section id="contact-info" class="bg-dark">
+    <div class="container">
+        <section id="features">
+            <!--.box*3 to add three lines-->
+            <div class="box">
+             <i class="fas fa-hotel fa-3x"></i>
+            <h3>Location</h3>
+            <p>50 Main St, Curitiba PR</p>
+             </div>
+            <div class="box">
+             <i class="fas fa-phone fa-3x"></i>
+             <h3>Phone Number</h3>
+             <p>(41)9555-5555</p>
+            </div>
+            <div class="box">
+             <i class="fas fa-envelope fa-3x"></i>
+             <h3>Email Adress</h3>
+             <p>bthotels@contactus.com</p>
+            </div>
+     
+    </div>
+
+</section>
+
+   <footer id="main-footer">
+        <p>Hotel BT &copy; 2020, All Rights Reserved</p>
+   </footer>
+</body>
+</html>
